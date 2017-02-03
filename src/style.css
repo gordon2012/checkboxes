@@ -11,14 +11,12 @@ body {
     max-width: 400px;
     margin: 0 auto;
     border-radius: 5px;
-    /*border: 1px solid black;*/
 }
 
 .item {
     padding: 0px;
     border-bottom: 1px solid grey;
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
 }
 .item:last-child {
@@ -29,12 +27,9 @@ body {
     padding: 0;
     margin: auto 16px;
 }
-.item p {
+.item label {
     padding: 16px;
     margin: 0;
-    /*background: yellow;*/
-    /*flex: 1;*/
-    /*height: 100%;*/
     border-left: 1px solid grey;
 }
 
